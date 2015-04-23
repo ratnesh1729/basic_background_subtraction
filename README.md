@@ -11,11 +11,5 @@
 
 5. Apart from above 3, I also provide a cimg based implementation for removing horizontal lines, along time axis ((temporal_gradient.mp4 in folder part1)). This is a simple basic processing and should not be confused with objective of 4. This approach will only work well when movement is fast (can be parameterized with sigma of deriche filter) and the movement is perpendicular to camera optical axis. Simple line removal is noisy, hence we should try to correlate patches instead of points. 
 
-6. Wherever possible, I try to include the comments so as to understand the code. 
-
-
-----------------------------------------------------------------------------------------------
-Overall impression: I find MOG to be working reasonable from the perspective of detectors. I feel this will help in a good way for object-tracking-based-on-detections (suppression of false positives from detections).
-----------------------------------------------------------------------------------------------
 	
 Questions: ratnesh1729@gmail.com (feel free to shoot)
